@@ -46,8 +46,6 @@ String modul2_inline;
 int received_1=0;
 int received_2=0;
 
-char SQL_update_current[]= "UPDATE nagyzsol_onlab.current_sensor_data SET air_temp'%f', humidity='%f', soil_moisture='%d', lux='%d', water_temp='%f', water level= '%s'UVA='%f', UVB='%f', UV_index='%f'";
-
 void setup() {
   
   Serial.begin(115200);
